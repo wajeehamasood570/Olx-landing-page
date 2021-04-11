@@ -1,0 +1,952 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    background-color: rgb(253, 253, 253);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main b{
+    color: #062422e5;
+margin: 8px;
+
+}
+.loc{
+    margin-left: 10px;
+    padding: 0px;
+    margin-top: 20px;  
+ 
+}
+.logo{
+    height: 40px;
+     margin-top: 5px;
+     position: absolute; 
+}
+.loc li{
+    list-style: none;
+}
+.loc li i{
+    display: inline-flex;
+    list-style: none;
+    width: 170px;
+    padding: 15px;
+    max-width: 70%;
+    min-width: 30px;
+    border: 3px solid #062422e5;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -40px;
+    color: #062422;
+   
+}
+.loc li input{
+    border: none;
+    width: 300px;
+    font-size: 17px;
+}
+.find{
+    width: 400px;
+    padding: 15px;
+    max-width: 70%;
+    min-width: 30px;
+    border: 3px solid #062422e5;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 17px;
+   margin-left: 320px;
+   margin-top: -43px;
+}
+
+.icon{
+    color: black;
+    margin-left: -45px;
+    margin-top: 10px;
+    position: absolute;
+}
+.nav{
+    margin: 15px;
+}
+.nav a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.801);
+    font-weight: bold;
+}
+.nav select{
+    font-weight: bold;
+    color: #062422;
+    width: 210px;
+    padding: 10px;
+    border: none;
+    max-width: 70%;
+    min-width: 30px;
+    cursor: pointer;
+    font-size: 17px;
+   
+}
+.bars{
+    display: none;
+}
+
+.h_img img{
+    width: 100%;
+     margin-left: 0px;
+}
+
+.cards{
+    background-color: white;
+    width: 23%;
+    margin: 5px;
+    border: 0.5px solid rgba(0, 0, 0, 0.534);
+    box-shadow: 2px 2px 10px black; 
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+.featured{
+    position: absolute;
+    background-color: yellow;
+    color: black;
+    padding: 3px;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.like i{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 10px;
+}
+.cards img{
+    width: 80%;
+    padding: 20px 20px 0px 20px;
+    
+}
+.image img{
+    height: 165px;
+}
+.des{
+    margin: 5px;
+}
+.des b{
+    font-size: small;
+    margin-left: 10px; 
+}
+.des p{
+    padding: 5px;
+}
+.title{
+    margin: 20px;
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    margin: 10px;
+    padding: 12px;
+    color: #062422;
+    background-color: white;
+    border: 1px solid #062422);
+    border-radius:8px;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.foot{
+    margin: 20px;
+    background-color:#f8fcfbfd ;
+}
+.foot img{
+    margin-left: -10px;
+}
+.foot b{
+    font-size: 30px;
+   
+    margin-left: 60px;
+    color: #062422;
+}
+.ft ,.p1 ,.p2, .p3, .p4, .app, .play{ 
+    background-color:#f2f7f5fd ;
+}
+.ft .p1
+{
+    margin-left: 15px;
+     margin-top: 10px;
+}
+.ft .p2{
+    margin-left: 250px; 
+    margin-top: -115px;
+}
+.ft .p3{
+    margin-left: 480px; 
+    margin-top: -115px;
+}
+.ft .p4{
+    margin-left: 680px;
+     margin-top: -115px;
+}
+.ft h2{
+    font-size: 15px;
+    color: #062422; 
+    text-decoration: none;
+    cursor: pointer;
+}
+.ft p{
+    color: #062422; 
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    cursor: pointer;
+}
+.follow{
+    margin-left: 880px; 
+    margin-top: -90px;
+}
+.media ul{
+    position: absolute;
+    display: flex;
+ list-style: none;
+ 
+ padding: 5px;
+ margin-left: 850px;
+}
+.media ul li{
+    margin:  0 5px;
+    transition: .6s;
+    border: 0.5px solid pink;
+    border-radius: 50%;
+    background-color: pink ;
+    color: black;
+    border-width: 5px;
+    text-align: center;
+}
+.last{
+    background-color:#062422 ;
+    padding: 25px;
+    margin-top: 180px;
+    color: white;
+}
+.play{
+    width: 6%; 
+    margin-left: -15px;
+     margin-top: 100px;
+     position: absolute; 
+    cursor: pointer;
+}
+.app{
+    width: 6%;  
+    margin-left: 55px;
+     margin-top: 99px;
+      position: absolute; 
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 400px) 
+{
+    body{
+        text-align: center;
+        width: 100%;
+    }
+    .loc li,select,a,.login,.sell,i{
+        display: none;
+    }
+   
+ .logo{
+    
+    height: 40px; 
+    margin-top: -10px; 
+  padding-top: 10px; 
+   left: 50%;
+   right: 50%;
+   transform: translate(-50%, -50%);
+   
+    }
+  
+ .h_img img{
+   
+    margin-top: 50px;
+    width: 100%;
+    }
+    .cards{
+        width: 350px;
+        left: 50%;
+        right: 50%;
+    }
+    
+    h2{
+        text-align: center;
+    }
+    .cards{
+        max-height: 460px;
+        min-height: 340px;
+    }
+    .cards img{
+        height: 75%;
+        width: 85%;
+    }
+    .like i{
+        position: absolute;
+       margin-left: 100px;
+    }
+    .des p{
+        font-size: 20px ;
+    }
+    .foot img, b{
+       display: none;
+    }
+    .ft h2 {
+        width: 100%;
+        text-align: left;
+        font-size: 4px;
+        padding: 0px;
+    }
+    .ft p {
+        width: 100%;
+        text-align: left;
+        font-size: 6px;
+        padding: 0px;
+    }
+    .ft .p1
+    {
+    margin-left: 0px;
+    margin-top: 0px;
+    }
+    .ft .p2
+    {
+    margin-left: 90px;
+    margin-top: -40px;
+    }
+    
+    .ft .p3
+    {
+    margin-left: 180px;
+    margin-top: -42px;
+    }
+    .ft .p4
+    {
+    margin-left: 270px;
+    margin-top: -82px;
+    }
+    .follow{
+        margin-top: 50px;
+        margin-left: 0px ;
+    }
+    .follow h2{
+        text-align: center;
+        font-size: medium;
+    }
+    .media{
+        display: none;
+    }
+  
+    .last{
+        width: 100%;
+    font-size: 13px;    
+   
+    }
+    .last p{
+        text-align: center;
+    }
+
+    .play{
+        width: 8%; 
+        margin-left: -30px;
+         margin-top: 0px;
+         position: absolute; 
+        cursor: pointer;
+    }
+    .app{
+        width: 8%;  
+        margin-left: 10px;
+         margin-top: 29px;
+          position: absolute; 
+        cursor: pointer;
+    }
+    
+
+}
+
+@media only screen and (max-width: 768px)
+{
+    body{
+        text-align: center;
+    }
+    .loc li,select,a,.login,.sell,i{
+        display: none;
+    }
+ .logo{
+    height: 40px; 
+    margin-top: 0px; 
+  padding-top: 40px; 
+   left: 50%;
+   right: 50%;
+   transform: translate(-50%, -50%);
+   
+ }
+ .h_img img{
+    margin-top: 80px;
+    width: 100%;
+}
+
+    .cards{
+        width: 350px;
+        left: 50%;
+        right: 50%;
+        max-height: 460px;
+        min-height: 340px;
+    }
+    
+    h2{
+        text-align: center;
+    }
+
+    .cards img{
+       max-height: 75%;
+       min-height: 60%;
+    }
+    .like i{
+        position: absolute;
+       margin-left: 100px;
+    }
+    .des p{
+        font-size: 20px ;
+    }
+    .foot img, b{
+       display: none;
+    }
+    .ft h2 {
+        width: 100%;
+        text-align: left;
+        font-size: 13px;
+        padding: 0px;
+    }
+    .ft p {
+        width: 100%;
+        text-align: left;
+        font-size: 15px;
+        padding: 0px;
+    }
+    .ft .p1
+    {
+margin-left: 0px;
+margin-top: 0px;
+    }
+    .ft .p2
+    {
+margin-left: 190px;
+margin-top: -80px;
+    }
+    
+    .ft .p3
+    {
+margin-left: 380px;
+margin-top: -84px;
+    }
+    .ft .p4
+    {
+margin-left: 560px;
+margin-top: -82px;
+    }
+    .follow{
+        margin-top: 50px;
+        margin-left: 0px ;
+    }
+    .follow h2{
+        text-align: center;
+        font-size: medium;
+    }
+    .media{
+        display: none;
+    }
+  
+    .last{
+        width: 100%;
+    font-size: 13px;    
+   
+    }
+    .last p{
+        text-align: center;
+    }
+
+    .play{
+        width: 10%; 
+        margin-left: -80px;
+         margin-top: 30px;
+         position: absolute; 
+        cursor: pointer;
+    }
+    .app{
+        width: 10%;  
+        margin-left: 10px;
+         margin-top: 29px;
+          position: absolute; 
+        cursor: pointer;
+    }
+    
+
+}
+
+/* @media only screen and (max-width: 1024px)
+{
+    body{
+        width: 100%;
+        background-color: rgb(253, 253, 253);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .main b{
+        color: #062422e5;
+    margin: 8px;
+    
+    }
+    .loc{
+        margin-left: 10px;
+        padding: 0px;
+        margin-top: 20px;  
+     
+    }
+    .logo{
+        height: 40px;
+         margin-top: 5px;
+         position: absolute; 
+    }
+    .loc li{
+        list-style: none;
+    }
+    .loc li i{
+        display: inline-flex;
+        list-style: none;
+        width: 170px;
+        padding: 15px;
+        max-width: 70%;
+        min-width: 30px;
+        border: 3px solid #062422e5;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 20px;
+        position: absolute;
+        margin-left: 100px;
+        margin-top: -40px;
+        color: #062422;
+       
+    }
+    .loc li input{
+        border: none;
+        width: 300px;
+        font-size: 17px;
+    }
+    .find{
+        width: 400px;
+        padding: 15px;
+        max-width: 70%;
+        min-width: 30px;
+        border: 3px solid #062422e5;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 17px;
+       margin-left: 320px;
+       margin-top: -43px;
+    }
+    
+    .icon{
+        color: black;
+        margin-left: -45px;
+        margin-top: 10px;
+        position: absolute;
+    }
+    .nav{
+        margin: 15px;
+    }
+    .nav a{
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.801);
+        font-weight: bold;
+    }
+    .nav select{
+        font-weight: bold;
+        color: #062422;
+        width: 210px;
+        padding: 10px;
+        border: none;
+        max-width: 70%;
+        min-width: 30px;
+        cursor: pointer;
+        font-size: 17px;
+       
+    }
+    .h_img img{
+        width: 100%;
+         margin-left: 0px;
+    }
+    
+    .cards{
+        background-color: white;
+        width: 23%;
+        margin: 5px;
+        border: 0.5px solid rgba(0, 0, 0, 0.534);
+        box-shadow: 2px 2px 10px black; 
+        border-radius: 5px;
+        display: inline-block;
+        cursor: pointer;
+    }
+    .featured{
+        position: absolute;
+        background-color: yellow;
+        color: black;
+        padding: 3px;
+        margin-top: 10px;
+        margin-left: 7px;
+    }
+    .like{
+        position: absolute;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .cards img{
+        width: 80%;
+        padding: 20px 20px 0px 20px;
+        
+    }
+    .image img{
+        height: 165px;
+    }
+    .des{
+        margin: 5px;
+    }
+    .des b{
+        font-size: small;
+        margin-left: 10px; 
+    }
+    .des p{
+        padding: 5px;
+    }
+    .title{
+        margin: 20px;
+    }
+    .btn{
+        text-align: center;
+    }
+    .btn button{
+        margin: 10px;
+        padding: 12px;
+        color: #062422;
+        background-color: white;
+        border: 1px solid #062422);
+        border-radius:8px;
+        font-size: 15px;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    .foot{
+        margin: 20px;
+    }
+    .foot img{
+        margin-left: -10px;
+    }
+    .foot b{
+        font-size: 30px;
+       
+        margin-left: 60px;
+        color: #062422;
+    }
+    .ft .p1
+    {
+        margin-left: 15px;
+         margin-top: 10px;
+    }
+    .ft .p2{
+        margin-left: 250px; 
+        margin-top: -115px;
+    }
+    .ft .p3{
+        margin-left: 480px; 
+        margin-top: -115px;
+    }
+    .ft .p4{
+        margin-left: 680px;
+         margin-top: -115px;
+    }
+    .ft h2{
+        font-size: 15px;
+        color: #062422; 
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .ft p{
+        color: #062422; 
+        text-decoration: none;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px;
+        cursor: pointer;
+    }
+    .follow{
+        margin-left: 880px; 
+        margin-top: -90px;
+    }
+    .last{
+        background-color:#062422 ;
+        padding: 25px;
+        margin-top: 180px;
+        color: white;
+    }
+    .play{
+        width: 6%; 
+        margin-left: 0px;
+         margin-top: 100px;
+         position: absolute; 
+        cursor: pointer;
+    }
+    .app{
+        width: 6%;  
+        margin-left: 63px;
+         margin-top: 99px;
+          position: absolute; 
+        cursor: pointer;
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 1200px)
+{
+    body{
+        width: 100%;
+        background-color: rgb(253, 253, 253);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .main b{
+        color: #062422e5;
+    margin: 8px;
+    
+    }
+    .loc{
+        margin-left: 10px;
+        padding: 0px;
+        margin-top: 20px;  
+     
+    }
+    .logo{
+        height: 40px;
+         margin-top: 5px;
+         position: absolute; 
+    }
+    .loc li{
+        list-style: none;
+    }
+    .loc li i{
+        display: inline-flex;
+        list-style: none;
+        width: 170px;
+        padding: 15px;
+        max-width: 70%;
+        min-width: 30px;
+        border: 3px solid #062422e5;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 20px;
+        position: absolute;
+        margin-left: 100px;
+        margin-top: -40px;
+        color: #062422;
+       
+    }
+    .loc li input{
+        border: none;
+        width: 300px;
+        font-size: 17px;
+    }
+    .find{
+        width: 400px;
+        padding: 15px;
+        max-width: 70%;
+        min-width: 30px;
+        border: 3px solid #062422e5;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 17px;
+       margin-left: 320px;
+       margin-top: -43px;
+    }
+    
+    .icon{
+        color: black;
+        margin-left: -45px;
+        margin-top: 10px;
+        position: absolute;
+    }
+    .nav{
+        margin: 15px;
+    }
+    .nav a{
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.801);
+        font-weight: bold;
+    }
+    .nav select{
+        font-weight: bold;
+        color: #062422;
+        width: 210px;
+        padding: 10px;
+        border: none;
+        max-width: 70%;
+        min-width: 30px;
+        cursor: pointer;
+        font-size: 17px;
+       
+    }
+    .h_img img{
+        width: 100%;
+         margin-left: 0px;
+    }
+    
+    .cards{
+        background-color: white;
+        width: 23%;
+        margin: 5px;
+        border: 0.5px solid rgba(0, 0, 0, 0.534);
+        box-shadow: 2px 2px 10px black; 
+        border-radius: 5px;
+        display: inline-block;
+        cursor: pointer;
+    }
+    .featured{
+        position: absolute;
+        background-color: yellow;
+        color: black;
+        padding: 3px;
+        margin-top: 10px;
+        margin-left: 7px;
+    }
+    .like{
+        position: absolute;
+        margin-left: 340px;
+        margin-top: 10px;
+    }
+    .cards img{
+        width: 80%;
+        padding: 20px 20px 0px 20px;
+        
+    }
+    .image img{
+        height: 165px;
+    }
+    .des{
+        margin: 5px;
+    }
+    .des b{
+        font-size: small;
+        margin-left: 10px; 
+    }
+    .des p{
+        padding: 5px;
+    }
+    .title{
+        margin: 20px;
+    }
+    .btn{
+        text-align: center;
+    }
+    .btn button{
+        margin: 10px;
+        padding: 12px;
+        color: #062422;
+        background-color: white;
+        border: 1px solid #062422);
+        border-radius:8px;
+        font-size: 15px;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    .foot{
+        margin: 20px;
+    }
+    .foot img{
+        margin-left: -10px;
+    }
+    .foot b{
+        font-size: 30px;
+       
+        margin-left: 60px;
+        color: #062422;
+    }
+    .ft .p1
+    {
+        margin-left: 15px;
+         margin-top: 10px;
+    }
+    .ft .p2{
+        margin-left: 250px; 
+        margin-top: -115px;
+    }
+    .ft .p3{
+        margin-left: 480px; 
+        margin-top: -115px;
+    }
+    .ft .p4{
+        margin-left: 680px;
+         margin-top: -115px;
+    }
+    .ft h2{
+        font-size: 15px;
+        color: #062422; 
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .ft p{
+        color: #062422; 
+        text-decoration: none;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px;
+        cursor: pointer;
+    }
+    .follow{
+        margin-left: 880px; 
+        margin-top: -90px;
+    }
+    .last{
+        background-color:#062422 ;
+        padding: 25px;
+        margin-top: 180px;
+        color: white;
+    }
+    .play{
+        width: 6%; 
+        margin-left: -10px;
+         margin-top: 100px;
+         position: absolute; 
+        cursor: pointer;
+    }
+    .app{
+        width: 6%;  
+        margin-left:55px;
+         margin-top: 99px;
+          position: absolute; 
+        cursor: pointer;
+    }
+    
+
+} */
+/* .loc input{
+    width: 480px;
+    padding: 15px;
+    max-width: 70%;
+    min-width: 30px;
+    border: 3px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 17px;
+   margin-left: 20px;
+} 
+   .logo img{
+   
+   width: 105%;
+   top: 0;
+   left: 50%;
+   right: 50%;
+   transform: translate(-50%, -50%);
+    }*/
